@@ -1,0 +1,85 @@
+.agregar-clientes-container {
+  background: linear-gradient(135deg, #1f2a45, #3a4d7e);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-family: 'Orbitron', sans-serif; /* Fuente futurista */
+}
+
+.agregar-clientes-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.form-row label {
+  flex: 1;
+  margin-bottom: 5px;
+}
+
+.form-row input {
+  flex: 2;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #6a8caf;
+  border-radius: 5px;
+  background: #22304d;
+  color: #fff;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.form-row input:focus {
+  background: #2a3d5b;
+  transform: scale(1.05);
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #5069a1;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: #6a8caf;
+  transform: scale(1.05);
+}
+
+/* Ajustes adicionales para mejorar la tabla */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #6a8caf;
+  text-align: left;
+  background: #22304d;
+  color: #fff;
+}
+
+table th {
+  background: #1f2a45;
+}
+
+table tr:nth-child(even) {
+  background: #2a3d5b;
+}
+
+table tr:hover {
+  background: #3a4d7e;
+}

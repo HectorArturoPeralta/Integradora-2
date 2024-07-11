@@ -1,0 +1,35 @@
+  .perfil {
+    margin-left: 625px;
+    background: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center; /* Centrar texto */
+    max-width: 400px; /* Ancho máximo del contenedor */
+    width: 100%; /* Ancho completo */
+  }
+  
+  .perfil h1 {
+    margin-bottom: 20px;
+    color:#0056b3;
+  }
+  
+  .perfil p {
+    margin: 10px 0;
+    font-size: 16px;
+    color:#0056b3;
+  }
+  
+  .perfil button {
+    background-color: #007bff; /* Color del botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .perfil button:hover {
+    background-color: #0056b3; /* Color al pasar el ratón */
+  }
+  
